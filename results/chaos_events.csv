@@ -1,0 +1,8 @@
+timestamp,label,netem
+1791195466.879,clean,clean
+1791195472.899,4g,limit 10000 delay 25ms 8ms distribution normal loss 0.5% rate 20000kbit
+1791195478.923,3g,limit 10000 delay 60ms 20ms distribution normal loss 1% rate 1500kbit
+1791195484.948,bad_wifi,limit 10000 delay 15ms 25ms distribution normal loss 6% 30% reorder 5% 50%
+1791195490.968,disaster,limit 10000 delay 250ms 100ms distribution normal loss 20% duplicate 3% corrupt 0.5% rate 256kbit
+1791195496.988,clean,clean
+1791195503.033,end,clean
